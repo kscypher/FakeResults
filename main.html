@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>Fake Results Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .result-container {
+            width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: #f5f5f5;
+        }
+
+        .result-container p {
+            margin-bottom: 10px;
+        }
+
+        .result-container button {
+            padding: 10px 20px;
+            background-color: #4caf50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Results Website</h1>
+
+    <div class="result-container">
+        <p>Exam Name: Sem End Exam</p>
+        <p>Student Name: KS Ankith</p>
+        <p>Score: 65%</p>
+        <p>Status: Passed</p>
+        <button onclick="showCertificate()">View Certificate</button>
+    </div>
+
+    <script>
+        function showCertificate() {
+            // Here you can add additional functionality, like displaying a certificate image or redirecting to another page.
+            alert("Congratulations! You passed the exam!");
+        }
+    </script>
+</body>
+</html>
